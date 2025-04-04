@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+   "start":"node weather.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/shamilbin/weatherCli.git"
+  },
+  "author": "shamil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shamilbin/weatherCli/issues"
+  },
+  "homepage": "https://github.com/shamilbin/weatherCli#readme",
+  "description": ""
+}
