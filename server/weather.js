@@ -25,7 +25,7 @@ async function call() {
 
     console.clear();
     console.log(chalk.bold.cyanBright(` 🌥️  Weather Report of ${cityName}`));
-    // console.log(response.data);
+    console.log(response.data);
 
     // console.log(`${chalk.bold.yellow("📍 Location           :")}${location}`);
     // console.log(`${chalk.bold.yellow("👥 Followers          :")}${followers}`);
@@ -48,7 +48,7 @@ async function call() {
     );
     console.log(
       `${chalk.bold.yellow(` The Discription of ${cityName} is  :`)}${
-        response.data.weather.description
+        response.data.weather[0].description
       }`
     );
     console.log(
