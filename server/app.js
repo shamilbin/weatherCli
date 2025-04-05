@@ -66,4 +66,21 @@ async function call() {
   }
 }
 
-call();
+// call();
+
+
+// import terminalImage from 'terminal-image';
+// import got from 'got';
+//got is a library that helps you download stuff from the internet 
+
+
+// const body = await got(avatar_url).buffer();
+//got(avatar_url).buffer()--> downloads the image and gives it in raw binary format (Node.js calls this a "buffer").
+
+// console.log(await terminalImage.buffer(body));
+//terminalImage.buffer(body) takes that image buffer and converts it to a format that can be printed in the terminal.
+
+/* p.s: When you fetch an image(.jpg or .png) from the internet, 
+it's in binary form and not readable text like JSON or HTML.
+The terminalImage package knows how to take binary image data and turn it into colored characters 
+and pixels you can see in the terminal. */
